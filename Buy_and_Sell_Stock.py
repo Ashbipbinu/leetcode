@@ -17,8 +17,6 @@ class Solution:
 
         return max_profit
 
-
-
 sol = Solution()
 
 arr = [7,1,5,3,6,4]
