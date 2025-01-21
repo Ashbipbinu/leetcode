@@ -34,4 +34,4 @@ sol = Solution()
 arr = [7, 1, 5, 3, 6, 4]
 
 # Call the maxProfit method and print the result
-print(sol.maxProfit(arr))  # Output: 5
+print(sol.maxProfit(arr))
