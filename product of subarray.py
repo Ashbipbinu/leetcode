@@ -6,7 +6,7 @@ class Solution(object):
         mult_end = 1    # Tracks product from the end of the array
         max_prod = None  # Stores the maximum product found
 
-        # Special case: if the array has only one element, return it
+        # if the array has only one element, return it
         if len(nums) == 1:
             return nums[0]
         
