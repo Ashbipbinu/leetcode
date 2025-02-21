@@ -9,10 +9,6 @@ class Solution(object):
         # Stack to keep track of expected closing brackets
         stack = []
         
-        # If the length of the string is odd, it cannot be valid
-        if len(paran_arr) % 2 != 0:
-            return False
-
         # Iterate through each character in the input string
         for c in paran_arr:
             # If it's an opening bracket, push its corresponding closing bracket onto the stack
